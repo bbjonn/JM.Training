@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 81,
+    "height" : 123
+  }, {
+    "width" : 161,
+    "height" : 245
+  }, {
+    "width" : 322,
+    "height" : 489
+  }, {
+    "width" : 644,
+    "height" : 978
+  }, {
+    "width" : 1288,
+    "height" : 1956
+  }, {
+    "width" : 2576,
+    "height" : 3912
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2576,
+  "@id" : "https://bbjonn.github.io/JM.Training/images/test_full_2",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3912
+}
