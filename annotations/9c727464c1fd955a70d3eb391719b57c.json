@@ -1,0 +1,105 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "You are here",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>You are here</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/102148712",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-03-25T10:06:59",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1648202819828",
+    "dcterms:modified" : "2022-03-25T10:06:59",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://bbjonn.github.io/JM.Training/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1876,839,51,77"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1901.64706,915.35686c0,-17.04575 8.52288,-34.0915 25.56863,-51.13725c0,-14.12116 -11.44746,-25.56863 -25.56863,-25.56863c-14.12116,0 -25.56863,11.44746 -25.56863,25.56863c17.04575,17.04575 25.56863,34.0915 25.56863,51.13725z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_ecc57ac8-3259-4455-9dfa-30cc84ad99df\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://f3299219-3112-40ad-8c28-a4f3120660d2"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Car parking",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Car parking</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/102148712",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-03-25T10:07:29",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1648202849231",
+    "dcterms:modified" : "2022-03-25T10:07:29",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://bbjonn.github.io/JM.Training/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1910,1353,128,44"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1928.54466,1359.52414c11.84878,-3.73044 28.56341,-6.50838 45.35904,-6.50506v0v0c16.79563,0.00332 31.42744,2.60203 45.35904,6.50506c13.9316,3.90303 19.34664,9.85048 18.78833,15.7046c-0.55831,5.85411 -7.08997,11.61488 -18.78833,15.7046c-11.69836,4.08972 -28.56341,6.50838 -45.35904,6.50506c-16.79563,-0.00332 -33.52183,-2.42862 -45.35904,-6.50506c-11.83721,-4.07644 -18.78544,-9.80402 -18.78833,-15.7046c-0.00289,-5.90058 6.93955,-11.97416 18.78833,-15.7046z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_33077549-d361-4665-90b2-6ba5d09d8c00\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://f3299219-3112-40ad-8c28-a4f3120660d2"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Cafe and toilets",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Cafe and toilets</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/102148712",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-03-25T10:07:15",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1648202835374",
+    "dcterms:modified" : "2022-03-25T10:07:15",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://bbjonn.github.io/JM.Training/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1431,568,51,77"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1456.75294,644.32941c0,-17.04575 8.52288,-34.0915 25.56863,-51.13725c0,-14.12116 -11.44746,-25.56863 -25.56863,-25.56863c-14.12116,0 -25.56863,11.44746 -25.56863,25.56863c17.04575,17.04575 25.56863,34.0915 25.56863,51.13725z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_610c6163-4693-4629-acbc-47d304c1d0fb\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://f3299219-3112-40ad-8c28-a4f3120660d2"
+    } ]
+  } ],
+  "@id" : "https://bbjonn.github.io/JM.Training/annotations/9c727464c1fd955a70d3eb391719b57c.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
