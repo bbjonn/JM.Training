@@ -12,7 +12,7 @@
 		"@language": "en"
 	}],
 	"license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-	"attribution": "A cool painter or two",
+	"attribution": "Two Painters",
 	"sequences": [{
 		"@id": "http://c9c8a983-4d03-46b6-b08e-2ff9ad95368e",
 		"@type": "sc:Sequence",
@@ -46,9 +46,9 @@
 					"on": "http://1431f052-d0a6-4df8-b776-e6fd3051665d"
 				}],
 				"otherContent": [{
-					"@id": "https://bbjonn.github.io/JM.Training/annotations/9c727464c1fd955a70d3eb391719b57c.json",
+					"@id": "https://bbjonn.github.io/JM.Training/annotations/97f0c5cc4ee767c5738e98b3dd491013.json",
 					"@type": "sc:AnnotationList",
-					"label": "My fantastic annotations"
+					"label": "Visitors Guide"
 				}]
 			},
 			{
@@ -77,9 +77,9 @@
 					"on": "http://f3299219-3112-40ad-8c28-a4f3120660d2"
 				}],
 				"otherContent": [{
-					"@id": "https://bbjonn.github.io/JM.Training/annotations/97f0c5cc4ee767c5738e98b3dd491013.json",
+					"@id": "https://bbjonn.github.io/JM.Training/annotations/9c727464c1fd955a70d3eb391719b57c.json",
 					"@type": "sc:AnnotationList",
-					"label": "My fantastic annotations"
+					"label": "Visitors Guide"
 				}]
 			}
 		]
