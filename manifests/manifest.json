@@ -12,7 +12,7 @@
     "@language" : "en"
   } ],
   "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "attribution" : "A cool painter or two",
+  "attribution" : "Some Painters",
   "sequences" : [ {
     "@id" : "http://c9c8a983-4d03-46b6-b08e-2ff9ad95368e",
     "@type" : "sc:Sequence",
