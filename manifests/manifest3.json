@@ -1,0 +1,107 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://bbjonn.github.io/JM.Training/manifests/manifest3.json",
+  "@type" : "sc:Manifest",
+  "label" : "Test Fuji's",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/102148712/ae79b6475d3928135a15e28e7d8598db/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Two Painters"
+  } ],
+  "description" : [ {
+    "@value" : "Pictures of Fuji",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Two Painters",
+  "sequences" : [ {
+    "@id" : "http://c9c8a983-4d03-46b6-b08e-2ff9ad95368e",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://1431f052-d0a6-4df8-b776-e6fd3051665d",
+      "@type" : "sc:Canvas",
+      "label" : "Fuji from the BL",
+      "height" : 4393,
+      "width" : 6028,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://01fc7783-0dcd-42f3-8a01-af9bac1550c2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://bbjonn.github.io/JM.Training/images/test_full/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://bbjonn.github.io/JM.Training/images/test_full",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4393,
+          "width" : 6028
+        },
+        "on" : "http://1431f052-d0a6-4df8-b776-e6fd3051665d"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://bbjonn.github.io/JM.Training/annotations/97f0c5cc4ee767c5738e98b3dd491013.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Visitors Guide"
+      } ]
+    }, {
+      "@id" : "http://f3299219-3112-40ad-8c28-a4f3120660d2",
+      "@type" : "sc:Canvas",
+      "label" : "Fuji Image from the Japanese Times",
+      "height" : 3912,
+      "width" : 2576,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b933b960-e6ff-4acc-a12f-470551359a83",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://bbjonn.github.io/JM.Training/images/test_full_2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://bbjonn.github.io/JM.Training/images/test_full_2",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 3912,
+          "width" : 2576
+        },
+        "on" : "http://f3299219-3112-40ad-8c28-a4f3120660d2"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://bbjonn.github.io/JM.Training/annotations/9c727464c1fd955a70d3eb391719b57c.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Visitors Guide"
+      } ]
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/r1",
+    "@type" : "sc:Range",
+    "label" : "Fuji's",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/r2", "http://example.org/iiif/book1/range/r3" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r2",
+    "@type" : "sc:Range",
+    "label" : "Fuji the first",
+    "canvases" : [ "http://1431f052-d0a6-4df8-b776-e6fd3051665d" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/r3",
+    "@type" : "sc:Range",
+    "label" : "Fuji the second",
+    "canvases" : [ "http://f3299219-3112-40ad-8c28-a4f3120660d2" ]
+  } ]
+}
