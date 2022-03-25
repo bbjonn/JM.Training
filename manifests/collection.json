@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://bbjonn.github.io/JM.Training/manifests/manifest.json",
     "label" : "Test Fuji's"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://bbjonn.github.io/JM.Training/manifests/manifest3.json",
+    "label" : "Test Fuji's"
   } ]
 }
