@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://bbjonn.github.io/JM.Training/annotations/9c727464c1fd955a70d3eb391719b57c.json" ],
+  "@id" : "https://bbjonn.github.io/JM.Training/annotations/collection.json",
+  "label" : "All annotations loaded in bbjonn/JM.Training project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
